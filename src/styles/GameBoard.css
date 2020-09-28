@@ -1,0 +1,8 @@
+/*Styling for the GameBoard component. This will make all the list items appear as squares.*/
+
+.board {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: center;
+}

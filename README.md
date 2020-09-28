@@ -1,24 +1,4 @@
 # tic-tac-toe
-
-## Project setup
 ```
-yarn install
+It's a tic-tac-toe game made with Vue.
 ```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

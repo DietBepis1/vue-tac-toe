@@ -1,0 +1,18 @@
+/*Styling for each tile on the gameboard.*/
+
+.tile {
+    list-style: none;
+}
+
+.tile__btn {
+    width: 100%;
+    height: 100px;;
+    text-align: center;
+    font-size: 5rem;
+    outline: none;
+    border-radius: 15px;
+}
+
+button {
+    background:lightgreen;
+}
