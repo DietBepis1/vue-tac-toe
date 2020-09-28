@@ -45,16 +45,15 @@ export default {
     changeActivePlayer(item) {
       if(this.activePlayer=='X'){
         this.xScore[item] = 1;
-        this.checkForWinner(this.xScore, this.activePlayer, 'A');
+        this.checkForWinner(this.xScore, this.activePlayer);
         this.activePlayer ='O';
       } else if(this.activePlayer == 'O') {
         this.oScore[item] = 1;
-        this.checkForWinner(this.oScore, this.activePlayer, 'B');
+        this.checkForWinner(this.oScore, this.activePlayer);
         this.activePlayer = 'X';
       }
     },
-    checkForWinner(score, player, letter) {
-      console.log(score, player, letter)
+    checkForWinner(score, player) {
       
       //There should be 8 cases to win
       if(score[0]==1 && score[1]==1 && score[2]==1) {
